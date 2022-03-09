@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace Gruppe1_Assignment_1_F22.Views
 {
-	/// <summary>
-	/// Interaction logic for DepartmentList.xaml
-	/// </summary>
 	public partial class DepartmentList : UserControl
 	{
 		public DepartmentList()
@@ -26,3 +23,5 @@ namespace Gruppe1_Assignment_1_F22.Views
 		}
 	}
 }
+
+//Video 67

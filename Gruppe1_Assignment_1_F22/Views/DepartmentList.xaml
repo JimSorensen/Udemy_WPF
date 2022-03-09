@@ -22,7 +22,12 @@
 			<Button Margin="40,5,40,5" Name="btnDelete" Content="Delete" Grid.Column="2" FontSize="18" FontWeight="Bold"/>
 
 		</Grid>
-		<DataGrid x:Name="gridDepartment" IsReadOnly="True"/>
+		<DataGrid x:Name="gridDepartment" IsReadOnly="True" AutoGenerateColumns="False" SelectionUnit="FullRow">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Id" Width="*" Binding="{Binding Id}" Visibility="Hidden"/>
+				<DataGridTextColumn Header="Department Name" Width="auto" Binding="{Binding DepartmentName}"/>
+			</DataGrid.Columns>
+		</DataGrid>
 
 	</Grid>
 </UserControl>
