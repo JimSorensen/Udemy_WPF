@@ -22,7 +22,6 @@ namespace Gruppe1_Assignment_1_F22
 		{
 			InitializeComponent();
 		}
-
 		private void btnDepartment_Click(object sender, RoutedEventArgs e)
 		{
 			IbIWindowName.Content = "Department List";
@@ -30,3 +29,5 @@ namespace Gruppe1_Assignment_1_F22
 		}
 	}
 }
+
+
