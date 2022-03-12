@@ -8,5 +8,6 @@ namespace Gruppe1_Assignment_1_F22.ViewModels
 {
 	internal class SalaryViewModel
 	{
+
 	}
 }

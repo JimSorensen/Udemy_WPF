@@ -13,10 +13,10 @@ namespace Gruppe1_Assignment_1_F22.Models
         public int UserNo { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime? EndDate { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public string StateName { get; set; }
-        public string Explanation { get; set; }
+        public string ?Name { get; set; }
+        public string ?Surname { get; set; }
+        public string ?StateName { get; set; }
+        public string ?Explanation { get; set; }
         public int PermissionState { get; set; }
         public int DayAmount { get; set; }
         public int DepartmentId { get; set; }
