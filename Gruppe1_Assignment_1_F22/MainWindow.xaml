@@ -132,10 +132,10 @@
 		</StackPanel>
 	</Grid>
 	<Window.Resources>
-		<DataTemplate x:Name="DepartmentTemplate" DataType="{x:Type Viewmodels:DepartmentViewModel}">
+		<!--<DataTemplate x:Name="DepartmentTemplate" DataType="{x:Type Viewmodels:DepartmentViewModel}">
 			<Views:DepartmentList>
 				
 			</Views:DepartmentList>
-		</DataTemplate>
+		</DataTemplate>-->
 	</Window.Resources>
 </Window>
